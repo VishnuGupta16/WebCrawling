@@ -5,8 +5,8 @@ from domain import *
 from general import *
 from link_finder import *
 
-PROJECT_NAME = 'thenewboston'
-HOMEPAGE = 'https://thenewboston.com/'
+PROJECT_NAME = ''#Enter project name
+HOMEPAGE = ''#Enter base URL
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
